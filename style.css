@@ -1,0 +1,97 @@
+
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+html{
+    scroll-behavior:auto !important
+}
+body{
+    background-color: rgb(46, 49, 54);
+}
+
+.header {
+    background-color: rgb(0, 12, 82);
+  }
+
+.header h3{
+  color: rgb(196, 196, 196);
+}
+
+  #iconDiv {
+    background-color: rgb(11, 70, 118);
+    max-width:90%; 
+
+  }
+  
+
+
+  #detailsDiv {
+    background-color: rgb(9, 30, 61); /* Detaylar arka plan rengi belirlendi */
+    max-width:90%; 
+
+  }
+
+  #detailImg {
+max-height:80vh; 
+}
+
+#carModel{
+    color:rgb(180, 175, 175) !important;
+    font-weight: 550;
+}
+
+  .car-card {
+    cursor: pointer;
+    overflow:hidden;
+  }
+  
+  .car-card:hover #carModel{
+    color: rgb(255, 255, 255) !important; 
+    font-weight: bold;
+    transition: color ease-in 0.5s; 
+   
+
+  }
+  /*DEVAMINI İNCELE*/
+
+  .car-model {
+    color: rgb(165, 165, 165);
+  }
+  
+
+  .car-model:hover {
+    color: rgb(211, 207, 207) !important; 
+  }
+
+  #textDiv {
+    min-width: 15rem;
+    font-weight: 550;
+  }
+  #textDiv p{
+    color: rgb(112, 126, 140);
+  }
+  #textDiv span{
+    color: rgb(233, 237, 241);
+  }
+  i {
+    font-weight: 600;
+    cursor: pointer; 
+    color: rgb(165, 165, 165) !important; 
+  }
+  
+  i:hover {
+    color: rgb(211, 207, 207) !important;
+    transition: color;
+  
+ 
+  }
+
+ 
+#inputFilter{
+background-color: rgb(228, 228, 228);
+width: 210px;
+border-radius: 7px;
+}
+
+
